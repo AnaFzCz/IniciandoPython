@@ -11,13 +11,13 @@
 #  OperadoresLogicos
 # AND
 
-edad=int(input("Indique su edad"))
-documento = input("Tiene documento?(si/no):")
+# edad=int(input("Indique su edad"))
+# documento = input("Tiene documento?(si/no):")
 
-if edad >= 18 and documento == "si":
-    print("Entrada permitida!!")
-else:
-    print("Entrada negada")
+# if edad >= 18 and documento == "si":
+#     print("Entrada permitida!!")
+# else:
+#     print("Entrada negada")
      
  # OR
 feriado = input("Hoy es feriado ?(si/no)")
