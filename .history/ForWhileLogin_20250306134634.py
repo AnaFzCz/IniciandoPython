@@ -1,0 +1,9 @@
+usuario=input("Ingrese su nombre de usuario:")
+contrasena= (input("Ingresa su contraseña (números): "))
+
+while len(usuario) <5:
+    print("El nombre del usuario debe tener por lo menos 5 caracteres")
+     
+    while len(contrasena)<8:
+        print("la contraseña debe tener por lo menos 8 caracteres")
+print (f"Registro realizado con éxito {usuario} - {contrasena}")        
